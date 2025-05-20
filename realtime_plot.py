@@ -37,4 +37,4 @@ ani = animation.FuncAnimation(fig, animate, interval=300)  # au lieu de 500 ms
 
 plt.tight_layout()
 plt.show()
-del ani  # <-- ajoute cette ligne juste après plt.show()
+del ani  
